@@ -1,5 +1,5 @@
 # mpv_cutlist_to_llc
-This script converts a cutlist generated from MPV (in JSON format) into a LosslessCut project file (.llc)
+This script converts a cutlist generated from MPV (in JSON format) into a LosslessCut project file (.llc).
 MPV Script: "log_timestamps.lua" - This script logs timestamps to cutlist.txt with each pair of key presses marking a start and an end point.
 
 Step-by-Step Instructions
@@ -36,8 +36,8 @@ Steps to Use "mpv_cutlist_to_llc_v1.2.0.py"
         input_filename: The path to your cutlist.txt.
         output_filename: The path where you want to save the .llc file.
         media_filename: The name of the media file that you are editing (e.g., test.mp4).
-        start_buffer_time: Number of seconds before each segment (float values allowed).
-        end_buffer_time: Number of seconds after each segment (float values allowed).
+        start_buffer_time: Number of seconds to add to the start of each segment (float values allowed).
+        end_buffer_time: Number of seconds to add to the end of each segment (float values allowed).
 
     Run the Script:
         Run the script in your command prompt: 
