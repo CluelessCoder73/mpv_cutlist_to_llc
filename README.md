@@ -1,6 +1,6 @@
 # mpv_cutlist_to_llc
 This script converts a cutlist generated from MPV (in JSON format) into a LosslessCut project file (.llc).
-MPV Script: "log_timestamps.lua" - This script logs timestamps to cutlist.txt with each pair of key presses marking a start and and end point.
+MPV Script: "log_timestamps.lua" - This script logs timestamps to cutlist.txt with each pair of key presses marking a start and an end point.
 
 Step-by-Step Instructions
 
